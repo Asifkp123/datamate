@@ -1,20 +1,4 @@
-# Datamate Flutter Assessment - Item & Category Management
 
-A minimal Flutter application built for the Datamate technical assessment demonstrating feature-first architecture, clean boundaries, and cross-feature dependency handling.
-
-## Running the project
-
-```bash
-flutter pub get
-flutter run
-```
-
-To run unit tests:
-```bash
-flutter test
-```
-
----
 
 ## Architectural Approach
 
