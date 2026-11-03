@@ -7,12 +7,12 @@ I organized the codebase using a **feature-first** structure instead of a tradit
 ```text
 lib/
 ├── features/
-│   ├── category/       # Category master (view list & add category)
-│   ├── item/           # Item master (view items with assigned category & add item)
-│   ├── menu_order/     # Transaction screen (browse items, place order & history)
-│   └── home/           # Bottom navigation bar connecting the 3 screens
-├── injection_container.dart  # Simple manual DI (composition root)
-└── main.dart           # App root & MultiProvider
+│   ├── category/        Category master (view list & add category)
+│   ├── item/            Item master (view items with assigned category & add item)
+│   ├── menu_order/      Transaction screen (browse items, place order & history)
+│   └── home/            Bottom navigation bar connecting the 3 screens
+├── injection_container.dart   Simple manual DI (composition root)
+└── main.dart            App root & MultiProvider
 ```
 
 ### Layer separation inside each feature:
